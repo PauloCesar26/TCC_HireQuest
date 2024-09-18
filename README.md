@@ -1,1 +1,1 @@
-# TCC---HireQuest
+# TCC-HireQuest
