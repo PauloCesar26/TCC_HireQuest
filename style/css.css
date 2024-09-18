@@ -1,0 +1,199 @@
+#navbar,
+#slider{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: black;
+}
+.bg-primary-color{
+    background-color: white;
+}
+.bg-secondary-color{
+    background-color: #eceBea;
+}
+.bg-dark-color{
+    background-color: black;
+}
+.primary-color{
+    color: #050505;
+}
+.secondary-color{
+    color: #7a7a7a;
+}
+.terciaria-color{
+    color: white;
+}
+
+
+#navbar{
+    background-color: black;
+    border-bottom: 1px solid #ffffff;
+    position: fixed;
+}
+#navbar a:hover{
+    color: #777777;
+}
+#navbar a.active{
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.navbr-brand{
+    display: flex;
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#button-nav{
+    border-radius: 10px;
+}
+
+
+/* SLIDER */
+#slider{
+    margin-top: 8em;
+    margin-bottom: 5em;
+    height: 90%;
+    
+}
+#slider img {
+    max-height: 500px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+#slider .carousel-caption{
+    bottom: 3em;
+}
+#slider .carousel-caption h5{
+    font-size: 1.5em;
+    text-shadow: #000 2px 2px;
+}
+.btn{
+    border-radius: 0;
+}
+#slider .btn{
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.carousel-control-prev i,
+.carousel-control-next i{
+    color: #111;
+    font-size: 2em;
+}
+.carousel-indicators[data-bs-target]{
+    background-color: #222;
+    opacity: 0.8;
+}
+.carousel-indicators .active{
+    background-color: black;
+}
+
+@media(min-width: 768px){
+    #slider .carousel-caption{
+        bottom: 15em;
+    }
+    #slider .carousel-caption h5{
+        font-size: 4em;
+        text-shadow: #000 2px 3px;
+    }
+    #slider .btn{
+        padding: 0.6 1.6em;
+        font-size: 1.1em;
+    }
+    .carousel-indicators{
+        bottom: 7em;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Funcionalidades */
+.containerfun{
+    /* background-color: aqua; */
+    height: 50%;
+    margin-bottom: 50px;
+}
+.row{
+    /* background-color: black; */
+    height: 100px;
+    margin: 0;
+    margin-bottom: 2%;
+}
+.col-2,
+.col-3,
+.col-4,
+.col-8{
+    /* border: 2px dashed red; */
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-10{
+    /* border: 2px dashed red; */
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.funcionalidade1{
+    background-color: #285598;
+    color: white;
+    width: 35%;
+    height: 65%;
+    border-radius: 50% 50%;
+    display: flex;
+    
+}
+#f1{
+    font-size: 180%;
+}
+#b1{
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+
+    border-radius: 20px;
+}
+.elements{
+    background-color: #285598;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+.bi.bi-person-vcard-fill,
+.bi.bi-file-earmark-person-fill,
+.bi.bi-file-text-fill{
+    font-size: 350%;
+    margin-left: 10px;
+}
+.bi.bi-chevron-double-right{
+    font-size: 350%;
+    margin-right: 10px;
+}
