@@ -54,6 +54,7 @@ body{
     width: 100%;
 }
 #button-nav{
+    width: 10%;
     border-radius: 10px;
 }
 
