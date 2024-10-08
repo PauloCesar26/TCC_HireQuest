@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #13072e;
+}
+
+#navbar{
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-primary-color{
+    background-color: white;
+}
+.bg-secondary-color{
+    background-color: #eceBea;
+}
+.bg-dark-color{
+    background-color: black;
+}
+.primary-color{
+    color: #050505;
+}
+.secondary-color{
+    color: #7a7a7a;
+}
+.terciaria-color{
+    color: white;
+}
+
+
+
+#navbar{
+    background-color: black;
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+}
+#navbar a:hover{
+    color: #777777;
+}
+#navbar a.active{
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.navbar-brand{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand span{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#button-nav{
+    width: 10%;
+    border-radius: 10px;
+}
+
+
+
+
+main{
+    background-color: aqua;
+    width: 90%;
+    height: 200vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 10px;
+}
+/* iframe {
+    display: block;
+    width: 100%; 
+    height: 55px; 
+    border: none; 
+} */
+
+
+
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+} 
+.container{
+    border: 1px solid black;
+    height: 25%;
+    position: relative;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+
+
+.search{
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 100%;
+}
+.image{
+    background-color: blue;
+    width: 50%;
+    height: 100%;   
+}
+
+/* PESQUISA */
+#form{
+    /* background-color: rgb(225, 0, 255); */
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+   
+}
+.elementsForm{
+    /* background-color: #7a7a7a; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+}
+input, button{
+    border: none;
+    margin: 2px;
+}
+.elementsForm input[type="text"]{
+    background-color: white;
+    color: black;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    padding-left: 15px;
+    
+    font-size: 1.1em;
+}
+.elementsForm button[type="submit"]{
+    background-color: white;
+    color: black;
+    width: 6%;
+    padding: 5px;
+    border-radius: 15px;
+}
+.button{
+    background-color: white;
+    color: black;
+    width: 6%;
+    padding: 5px;
+    border-radius: 15px;
+}
+.titleForm{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.elementsForm i{
+    font-size: 18px;
+}
+

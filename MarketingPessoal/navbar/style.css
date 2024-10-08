@@ -1,0 +1,177 @@
+/* body *{
+    border: 1px solid rgb(255, 0, 0);
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+} */
+
+
+
+/* navbar 01 */
+ *{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    width: 6%;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 0 2.4rem;
+}
+
+
+
+/* navbar 02*/
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 0 2.4rem;
+} */
+
+
+
+/* navbar 03 */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;  // so muda essa linha
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 0 2.4rem;
+} */
+
+
+
+
+/* navbar 04 */
+/**{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.button{
+    color: white;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 0 2.4rem;
+}*/
+
+
