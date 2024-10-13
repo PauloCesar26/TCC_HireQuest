@@ -4,7 +4,6 @@ body{
     box-sizing: border-box;
     background-color: #13072e;
 }
-
 #navbar{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -28,18 +27,27 @@ body{
 }
 
 
-
+/* NAVBAR */
 #navbar{
     background-color: black;
+    height: 20%;
     border-bottom: 1px solid #ffffff;
     position: relative;
 }
 #navbar a:hover{
-    color: #777777;
+    color: #a5a5a5;
 }
-#navbar a.active{
-    color: white;
-    border-bottom: 1px solid rgb(255, 255, 255);
+.nav-link{
+    color: #ffffff !important;
+}
+.nav-link.active{
+color: #ffffff !important; 
+border-bottom: 1px solid white; 
+}
+.nav-link:focus, .nav-link:active{
+color: #bebebe !important; 
+outline: none; 
+box-shadow: none; 
 }
 .navbar-brand{
     padding: 0;
@@ -59,57 +67,49 @@ body{
     border-radius: 10px;
 }
 
-
-
-
+/* CONTEUDO */
 main{
-    background-color: aqua;
+    background-color: #285598;
     width: 90%;
-    height: 200vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     border-radius: 25px;
     padding: 10px;
+    
 }
-/* iframe {
-    display: block;
-    width: 100%; 
-    height: 55px; 
-    border: none; 
-} */
-
-
-
-
 h1{
     text-transform: uppercase;
     text-align: center;
+    color: white;
 } 
-.container{
-    border: 1px solid black;
+.container-search{
+    border: 1px solid black; 
+    width: 95%;
     height: 25%;
     position: relative;
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
-
 .search{
-    /* background-color: blueviolet; */
+    /* background-color: blueviolet;  */
     width: 50%;
     height: 100%;
 }
-.image{
+.imagem{
     background-color: blue;
     width: 50%;
-    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
 /* PESQUISA */
 #form{
     /* background-color: rgb(225, 0, 255); */
@@ -132,35 +132,92 @@ input, button{
     margin: 2px;
 }
 .elementsForm input[type="text"]{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     width: 80%;
     border: none;
     border-radius: 15px;
     padding: 8px;
     padding-left: 15px;
-    
     font-size: 1.1em;
 }
 .elementsForm button[type="submit"]{
     background-color: white;
     color: black;
-    width: 6%;
-    padding: 5px;
-    border-radius: 15px;
+    font-weight: bold;
+    width: 7%;
+    padding: 7px;
+    border-radius: 20px;
 }
 .button{
     background-color: white;
     color: black;
-    width: 6%;
-    padding: 5px;
-    border-radius: 15px;
+    width: 7%;
+    padding: 7px;
+    border-radius: 20px;
 }
 .titleForm{
+    color: rgb(233, 233, 233);
     font-size: 2.5em;
     font-weight: bold;
 }
 .elementsForm i{
     font-size: 18px;
+}
+.image-marketing{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTEUDOS SOBRE MARKETING */
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    text-decoration: none;
+    background-color: #25282E;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+.btn:hover{
+    background-color: #333;
+    color: white;
+}
+#img2{
+    background-image: url('../img/g_2.jpg');
+}
+#img3{
+    background-image: url('../img/g_3.jpg');
+}
+#img4{
+    background-image: url('../img/g_4.jpg');
+}
+#img5{
+    background-image: url('../img/g_5.jpg');
+}
+#img6{
+    background-image: url('../img/g_6.jpg');
+}
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+    margin-bottom: 50px;
+}
+.container-list{
+    /* background-color: #333; */
+    margin-top: 30px;
+    padding-left: 36px;
+}
+.small-image-container{
+    height: 250px;
+    width: 95%;
+    margin-bottom: 25px;
 }
 
