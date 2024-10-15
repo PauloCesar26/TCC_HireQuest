@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
             <a href="#" class="navbar-brand terciaria-color">
                 <span>LOGO</span>
@@ -35,7 +35,10 @@
             </div>
             <button type="button" class="btn btn-secondary btn-small" id="button-nav">Sing Up</button>
         </div>
-     </nav>
+     </nav> -->
+      <?php
+      include '../navbar/navbar.php';
+      ?>
 
      <!-- Slider -->
      <div class="container" id="slide-container">

@@ -36,13 +36,13 @@ $result = $conn->query($sql);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Marketing Pessoal</title>
 </head>
 <body>
     
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <!-- <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
           <a href="#" class="navbar-brand terciaria-color">
             <span>LOGO</span>
@@ -65,19 +65,20 @@ $result = $conn->query($sql);
           </div>
           <button type="button" class="btn btn-secondary btn-small" id="button-nav">Sign Up</button>
         </div>
-      </nav>
-      
-
+      </nav>  -->
+      <?php
+      include '../navbar/navbar.php';
+      ?>
 
 
 
     <main>
-        <h1>Marketing Pessoal</h1>
+        <h1 class="title-principal">Marketing Pessoal</h1>
         <!-- PESQUISA -->
           <div class="container-search">
              <div class="search">
                   <form action="index.php" method="GET" id="form">
-                      <h2 class="titleForm primary-color">Um guia para sua área de <br>preferência</h2>
+                      <h2 class="titleForm">Um guia para sua área de <br>preferência</h2>
 
                       <div class="elementsForm">
                             <input type="text" name="query" placeholder="Digite o que quer saber..." value="<?php echo htmlspecialchars($search_query); ?>">
@@ -90,7 +91,7 @@ $result = $conn->query($sql);
               </div>
 
               <div class="imagem">
-                  <div class="image-marketing"><p>Image</p></div>
+                  <div class="image-marketing small-image-container center-image" id="img1"></div>
               </div>
           </div>
 
@@ -140,7 +141,7 @@ $result = $conn->query($sql);
                         echo '<div class="small-image-container center-image" id="' . htmlspecialchars($row['ID_imagem']) . '"></div>';
                         echo '<h3>' . htmlspecialchars($row['titulo']) . '</h3>';
                         echo '<p class="secondary-color">Realizada em: ' . htmlspecialchars($row['assunto']) . '</p>';
-                        echo '<a href="#" class="btn">Detalhes</a>';
+                        echo '<a href="#" class="btn-details">Detalhes</a>';
                         echo '</div>';
                     }
                 } 

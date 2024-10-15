@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #e8e5e5;
+    }
+    .bg-primary-color{
+        background-color: white;
+    }
+    .bg-secondary-color{
+        background-color: #eceBea;
+    }
+    .bg-dark-color{
+        background-color: black;
+    }
+    .primary-color{
+        color: #050505;
+    }
+    .secondary-color{
+        color: #7a7a7a;
+    }
+    .terciaria-color{
+        color: white;
+    }
+    #navbar{
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 0px 14px 37px -19px rgba(0,0,0,1);
+    }
+    #navbar{
+        background-color: black;
+        height: 20%;
+        border-bottom: 1px solid #ffffff;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    #navbar a:hover{
+        color: #a5a5a5;
+    }
+    .nav-link{
+        color: #ffffff !important;
+    }
+    .nav-link.active{
+        color: #ffffff !important; 
+        border-bottom: 1px solid white; 
+    }
+    .nav-link:focus, .nav-link:active{
+        color: #bebebe !important; 
+        outline: none; 
+        box-shadow: none; 
+    }
+    .navbar-brand{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-brand span{
+        font-family: Arial;
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+    #navbar-items .navbar-nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #button-nav{
+        width: 10%;
+        border-radius: 10px;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        gap: 10px;
+    }
+    .profile i{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .profile span{
+        font-size: 16px;
+     }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+          <a href="#" class="navbar-brand terciaria-color">
+            <span>HireQuest</span>
+          </a>
+          <div class=" navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link terciaria-color" aria-current="page">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link terciaria-color" aria-current="page">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link terciaria-color" aria-current="page">Imóveis</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link terciaria-color" aria-current="page">Contatos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="profile">
+            <i class="bi bi-person-circle"></i>
+            <span class="terciaria-color">Meu Perfil</span>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

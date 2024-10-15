@@ -3,7 +3,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background-color: black;
+    margin:0;
+    padding: 0;
+
 }
 .bg-primary-color{
     background-color: white;
@@ -25,7 +27,7 @@ body{
 }
 
 
-#navbar{
+/* #navbar{
     background-color: black;
     border-bottom: 1px solid #ffffff;
     position: fixed;
@@ -53,7 +55,7 @@ body{
 #button-nav{
     width: 10%;
     border-radius: 10px;
-}
+} */
 
 
 /* SLIDER */
@@ -192,15 +194,15 @@ body{
     align-items: center;
     justify-content:space-between;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 1rem;
 }
 .bi.bi-person-vcard-fill,
 .bi.bi-file-earmark-person-fill,
 .bi.bi-file-text-fill{
-    font-size: 350%;
+    font-size: 3rem;
     margin-left: 10px;
 }
 .bi.bi-chevron-double-right{
-    font-size: 350%;
+    font-size: 3rem;
     margin-right: 10px;
 }
