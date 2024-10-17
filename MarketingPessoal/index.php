@@ -20,7 +20,7 @@ $search_query = "";
 if (isset($_GET['query'])) {
     $search_query = $_GET['query'];
     $search_query = $conn->real_escape_string($search_query); // Evitar SQL Injection
-    $sql = "SELECT ID_imagem, titulo, assunto FROM conteudo WHERE titulo LIKE '%$search_query%' OR assunto LIKE '%$search_query%'";
+    $sql = "SELECT ID_imagem, titulo, assunto, conteudos_marketing FROM conteudo WHERE titulo LIKE '%$search_query%' OR assunto LIKE '%$search_query%' OR conteudos_marketing LIKE '%$search_query%'";
 } else {
     $sql = "SELECT * FROM conteudo"; // Exibir todos os produtos se não houver pesquisa
 }
@@ -140,8 +140,10 @@ $result = $conn->query($sql);
                         echo '<div class="col-12 col-md-6">';
                         echo '<div class="small-image-container center-image" id="' . htmlspecialchars($row['ID_imagem']) . '"></div>';
                         echo '<h3>' . htmlspecialchars($row['titulo']) . '</h3>';
-                        echo '<p class="secondary-color">Realizada em: ' . htmlspecialchars($row['assunto']) . '</p>';
-                        echo '<a href="#" class="btn-details">Detalhes</a>';
+                        echo '<br>';
+                        '<p class="secondary-color">' . htmlspecialchars($row['assunto']) . '</p>';
+                        // echo '<a href="#" class="btn-details">Detalhes</a>';
+                        echo '<a href="' . htmlspecialchars($row['conteudos_marketing']) . '" class="btn-details" target="_blank">Detalhes</a>';
                         echo '</div>';
                     }
                 } 
