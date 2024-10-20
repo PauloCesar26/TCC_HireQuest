@@ -206,8 +206,21 @@ input, button{
     background-image: url('../img/g_5.jpg');
 }
 #img6{
-    background-image: url('../img/g_6.jpg');
+    background-image: url('../img/g_7.jpg');
 }
+#img7{
+    background-image: url('../img/g_8.jpg');
+}
+#img8{
+    background-image: url('../img/g_9.jpg');
+}
+#img9{
+    background-image: url('../img/g_10.jpg');
+}
+#img11{
+    background-image: url('../img/g_11.jpg');
+}
+
 #gallery-container h1,
 #gallery-container .col-md-6,
 #gallery-container .col-12{
