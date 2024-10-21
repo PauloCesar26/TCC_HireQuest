@@ -1,0 +1,174 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cinza: #f5f1f1;
+    --azul: #285598;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    width: 100vw;
+    height: 100vh;
+    background: var(--cinza);
+}
+
+/*.logus h1{
+    font-size: 28px;
+    color: var(--azul);
+}
+
+.logus{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    margin: unset;
+}
+
+.logus img{
+    margin-left: 10px;
+    width: 30px;
+} */
+
+input {
+    border: none;
+    outline: none;
+}
+
+.titulo {
+    font-weight: 700;
+    color: var(--azul);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 20px 0; /* Espaçamento maior acima e abaixo do título */
+}
+
+.titulo img.logo {
+    width: 32px; /* Largura da logo */
+    margin-right: 15px;
+    /* margin-right: 8px; Espaçamento entre o logo e o título */
+}
+
+
+.quadradoBranco {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; /* Alinha o conteúdo no topo */
+    align-items: center;
+    width: 420px;
+    height: auto; /* Altura adaptável ao conteúdo */
+    max-height: 590px; /* Altura máxima para evitar excessos */
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar a caixa */
+}
+
+.form {
+    width: 100%; /* O formulário ocupa toda a largura da caixa */
+}
+
+.input-box {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%; /* O input-box ocupa a largura total */
+    margin-bottom: 20px; /* Espaçamento entre os campos do formulário */
+    padding: 0 20px; /* Adiciona padding igual nas laterais (20px de cada lado) */
+}
+
+.input-box label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px; /* Espaçamento entre o label e o input */
+}
+
+.input-box input {
+    width: 100%; /* O input agora ocupa 100% da largura da box */
+    height: 35px;
+    font-size: 16px;
+    background: #e8e5e5;
+    border: 1px solid transparent; /* Permite deixar a borda azul */ 
+    border-radius: 4px;
+    padding-left: 10px; /* Adiciona espaçamento interno no input */
+    transition: border-color 0.3s; 
+}
+
+
+.input-box input:focus {
+    border-color: #5e5ba9; 
+    outline: none; 
+}
+
+button {
+    background: var(--azul); 
+    padding: 9px 75px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none; 
+    cursor: pointer; /* Cursor indica botão clicável */
+    outline: none; /* Remove contorno ao focar no botão */
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    transition: 0.3s;
+    background: white;
+    border: 1px solid #4b4796; /* Fundo mais escuro ao passar o mouse */
+    color: #4b4796;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    .quadradoBranco {
+        width: 90%; /* A largura da caixa é 90% em telas pequenas */
+    }
+
+    button {
+        padding: 9px 50px; /* Ajusta o padding do botão para telas menores */
+    }
+
+    .input-box input {
+        height: 35px; 
+    }
+
+    .titulo {
+        margin: 15px 0; /* Menor espaçamento acima e abaixo em telas pequenas */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .quadradoBranco {
+        width: 70%; /* A largura da caixa é 70% em telas médias */
+    }
+
+    button {
+        padding: 9px 70px; /* Ajusta o padding do botão para telas médias */
+    }
+
+    .input-box input {
+        height: 35px; 
+    }
+}
