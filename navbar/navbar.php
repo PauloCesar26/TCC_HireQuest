@@ -30,16 +30,16 @@
         color: #7a7a7a;
     }
     .terciaria-color{
-        color: white;
+        color: black;
     }
     #navbar{
         font-family: 'Courier New', Courier, monospace;
-        box-shadow: 0px 14px 37px -19px rgba(0,0,0,1);
+        /* box-shadow: 0px 14px 37px -19px rgba(0,0,0,1); */
     }
     #navbar{
-        background-color: black;
+        background-color: #ffffff;
         height: 20%;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid black;
         position: relative;
         margin-bottom: 20px;
     }
@@ -47,14 +47,14 @@
         color: #a5a5a5;
     }
     .nav-link{
-        color: #ffffff !important;
+        color: black !important;
     }
     .nav-link.active{
-        color: #ffffff !important; 
-        border-bottom: 1px solid white; 
+        color: black !important; 
+        border-bottom: 1px solid black; 
     }
     .nav-link:focus, .nav-link:active{
-        color: #bebebe !important; 
+        color: black !important; 
         outline: none; 
         box-shadow: none; 
     }
@@ -84,7 +84,7 @@
         gap: 10px;
     }
     .profile i{
-        color: white;
+        color: black;
         display: flex;
         align-items: center;
         justify-content: center;
