@@ -1,28 +1,23 @@
 <?php
-// Configurações de conexão ao banco de dados
 $servername = "localhost";
-$username = "root";  // O padrão para WAMP/XAMPP é 'root'
-$password = "";  // O padrão para WAMP/XAMPP é uma string vazia
-$dbname = "marketing_pessoal";  // Nome do banco de dados que você criou
+$username = "root";  
+$password = "";  
+$dbname = "marketing_pessoal"; 
 
-// Conectar ao banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Verificar se a conexão foi bem-sucedida
 if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-// Inicializar variável para armazenar os resultados
 $search_query = "";
 
-// Criar a consulta SQL para buscar os produtos (todos os produtos ou baseado na pesquisa)
 if (isset($_GET['query'])) {
     $search_query = $_GET['query'];
-    $search_query = $conn->real_escape_string($search_query); // Evitar SQL Injection
+    $search_query = $conn->real_escape_string($search_query); 
     $sql = "SELECT ID_imagem, titulo, assunto, conteudos_marketing FROM conteudo WHERE titulo LIKE '%$search_query%' OR assunto LIKE '%$search_query%' OR conteudos_marketing LIKE '%$search_query%'";
 } else {
-    $sql = "SELECT * FROM conteudo"; // Exibir todos os produtos se não houver pesquisa
+    $sql = "SELECT * FROM conteudo"; 
 }
 
 $result = $conn->query($sql);
@@ -143,7 +138,6 @@ $result = $conn->query($sql);
                         echo '<h3>' . htmlspecialchars($row['titulo']) . '</h3>';
                         echo '<br>';
                         '<p class="secondary-color">' . htmlspecialchars($row['assunto']) . '</p>';
-                        // echo '<a href="#" class="btn-details">Detalhes</a>';
                         echo '<a href="' . htmlspecialchars($row['conteudos_marketing']) . '" class="btn-details" target="_blank">Detalhes</a>';
                         echo '</div>';
                     }
