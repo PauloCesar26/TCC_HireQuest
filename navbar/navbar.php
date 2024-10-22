@@ -34,7 +34,7 @@
     }
     #navbar{
         font-family: 'Courier New', Courier, monospace;
-        /* box-shadow: 0px 14px 37px -19px rgba(0,0,0,1); */
+        box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63);
     }
     #navbar{
         background-color: #ffffff;
@@ -61,6 +61,10 @@
     .navbar-brand{
         padding: 0;
         margin: 0;
+        width: 13%;
+        display: flex;
+        justify-content:center;
+        gap: 5px;
     }
     .navbar-brand span{
         font-family: Arial;
@@ -95,12 +99,16 @@
     .profile span{
         font-size: 16px;
      }
+     #logo{
+        width: 20%;
+     }
 </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
           <a href="#" class="navbar-brand terciaria-color">
+            <img src="img/logo.svg" id="logo">
             <span>HireQuest</span>
           </a>
           <div class=" navbar-collapse" id="navbar-items">

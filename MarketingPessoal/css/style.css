@@ -194,7 +194,7 @@ input, button{
     background-image: url('../img/g_1.jpg');
 }
 #img2{
-    background-image: url('../img/g_2.jpg');
+    background-image: url('img/g_2.jpg');
 }
 #img3{
     background-image: url('../img/g_3.jpg');
