@@ -39,6 +39,7 @@ UPDATE conteudo SET ID_imagem = 'img5' WHERE titulo = 'Obra 4';
 UPDATE conteudo SET ID_imagem = 'img6' WHERE titulo = 'Obra 5';
 
 ALTER TABLE conteudo ADD conteudos_marketing varchar(100);
+ALTER TABLE conteudo MODIFY COLUMN assunto varchar(5000);
 
 UPDATE conteudo SET conteudos_marketing = 'conteudos/introducao.php' WHERE ID_conteudo = 1;
 UPDATE conteudo SET conteudos_marketing = 'conteudos/autoConhecimento.php' WHERE ID_conteudo = 2;
@@ -55,7 +56,61 @@ UPDATE conteudo SET conteudos_marketing = 'conteudos/ferramentas.php' WHERE ID_c
 UPDATE conteudo SET conteudos_marketing = 'conteudos/inovacoes.php' WHERE ID_conteudo = 13;
 
 
-UPDATE conteudo SET assunto = 'marketing pessoal, Marketing pessoal, tipos de marketing pessoal' WHERE ID_conteudo = 1;
+UPDATE conteudo SET assunto = 'Marketing pessoal, Promoção de imagem, Habilidades profissionais, Estratégias de marketing pessoal, Visibilidade profissional,Credibilidade,
+Rede de contatos,Autoconfiança,Autenticidade,Ética profissional,Oportunidades de emprego,Desenvolvimento de carreira,Presença online,LinkedIn,Relacionamentos profissionais,
+Competências profissionais,Jovens profissionais,Imagem positiva' WHERE ID_conteudo = 1;
+
+UPDATE conteudo SET assunto = 'Autoconhecimento,Sucesso profissional,Crescimento pessoal,Desenvolvimento profissional,Forças e fraquezas,Habilidades técnicas,
+Soft skills,Competências comportamentais,Pontos fortes,Áreas de melhoria,Feedback externo,Autoanálise,Planejamento de carreira,Jovens profissionais,
+Competitividade no mercado de trabalho,Tomada de decisões assertiva' WHERE ID_conteudo = 2;
+
+UPDATE conteudo SET assunto = 'Branding pessoal,Marca pessoal,Identidade profissional,Imagem pessoal,Diferenciação,Consistência de imagem,Reputação profissional,
+Visibilidade no mercado,Presença online,Redes sociais,Networking,Relacionamentos profissionais,Influenciadores digitais,Desenvolvimento de carreira,Posicionamento de marca,
+Habilidades e valores,Estratégia de comunicação,Postura profissional,Referência na área de atuação' WHERE ID_conteudo = 3;
+
+UPDATE conteudo SET assunto = 'Networking,Rede de contatos,Conexões profissionais,Crescimento profissional,Oportunidades de emprego,Indicações e parcerias,
+Habilidades interpessoais,Visibilidade profissional,Desenvolvimento de carreira,Comunicação e empatia,Eventos profissionais,Redes sociais profissionais,
+Reciprocidade no networking,Grupos e comunidades profissionais,Networking online e offline,Construção de reputação,Credibilidade profissional,
+Manutenção de contatos' WHERE ID_conteudo = 4;
+
+UPDATE conteudo SET assunto = 'Presença online,Perfil profissional,Otimização de perfil,Foto de perfil profissional,Resumo profissional,Palavras-chave de setor,
+Interação em redes sociais,Recomendações profissionais,Portfólio online,Conquistas profissionais,Projetos relevantes,Portfólio digital,Plataformas de portfólio,
+Atualização de portfólio,Gestão da reputação online,Diferencial competitivo,Reputação em redes sociais,Imagem profissional' WHERE ID_conteudo = 5;
+
+UPDATE conteudo SET assunto = 'Comunicação eficaz,Habilidades de comunicação,Comunicação verbal,Comunicação não-verbal,Técnicas de apresentação,Linguagem corporal,
+Postura profissional,Contato visual,Tom de voz,Clareza e objetividade,Escuta ativa,Comunicação em entrevistas,Networking em eventos,Autoapresentação,Comunicação escrita,
+E-mails profissionais,Interação em eventos,Imagem profissional' WHERE ID_conteudo = 6;
+
+UPDATE conteudo SET assunto = 'Desenvolvimento contínuo,Educação contínua,Capacitação profissional,
+Adaptação ao mercado,Habilidades interpessoais,Competências técnicas,Empregabilidade,Recursos de capacitação,Plataformas de cursos online,Certificações profissionais,
+Workshops e seminários,Cursos técnicos,Graduação e pós-graduação,Leitura e autoaprendizado,Educação formal e não-formal,Validação de competências,
+Autoaprendizado' WHERE ID_conteudo = 7;
+
+UPDATE conteudo SET assunto = 'Elaboração de currículo,elaborar currículo,Currículo impactante,Organização visual do currículo,Carta de apresentação,
+Estrutura da carta de apresentação,Currículo funcional,Currículo cronológico,Currículo para setores criativos,
+Carta de apresentação personalizada' WHERE ID_conteudo = 8;
+
+UPDATE conteudo SET assunto = 'Dicas para entrevista de emprego,
+Preparação para entrevista de emprego,
+Como se preparar para entrevistas,
+Perguntas comuns em entrevistas de emprego,
+Respostas para entrevistas de emprego,
+Pesquisa sobre a empresa antes da entrevista,
+Conhecimento da vaga para entrevista,
+Como revisar o currículo para entrevista,
+Técnicas para reduzir o nervosismo na entrevista,
+Vestimenta para entrevista de emprego,
+Pontualidade em entrevistas,
+O que dizer na pergunta “Fale sobre você”,
+Como responder “Por que você quer trabalhar aqui?”,
+Pontos fortes e fracos em entrevista,
+Método STAR para entrevista,
+Como falar sobre desafios na entrevista,
+Objetivos de carreira em cinco anos,
+Entrevista comportamental: perguntas e respostas,
+Entrevista técnica: como se preparar,
+Entrevista em grupo e dinâmica de grupo,
+Habilidades de liderança e trabalho em equipe em entrevistas' WHERE ID_conteudo = 9;
 
 SELECT MAX(ID_conteudo) FROM conteudo;
 ALTER TABLE conteudo AUTO_INCREMENT = 10;
@@ -66,5 +121,11 @@ UPDATE conteudo SET titulo = 'Branding Pessoal' WHERE ID_conteudo = 3;
 UPDATE conteudo SET titulo = 'Networking' WHERE ID_conteudo = 4;
 UPDATE conteudo SET titulo = 'Presença Online' WHERE ID_conteudo = 5;
 UPDATE conteudo SET titulo = 'Comunicação Eficaz' WHERE ID_conteudo = 6;
-
+UPDATE conteudo SET titulo = 'Desenvolvimento Contínuo' WHERE ID_conteudo = 7;
+UPDATE conteudo SET titulo = 'Currículo e Carta de Apresentação' WHERE ID_conteudo = 8;
+UPDATE conteudo SET titulo = 'Preparação para Entrevistas ' WHERE ID_conteudo = 9;
+UPDATE conteudo SET titulo = 'Feedback e Melhoria Contínua' WHERE ID_conteudo = 10;
+UPDATE conteudo SET titulo = 'Casos de Sucesso' WHERE ID_conteudo = 11;
+UPDATE conteudo SET titulo = 'Recurso e Ferramentas' WHERE ID_conteudo = 12;
+UPDATE conteudo SET titulo = 'Tendências e Inovações' WHERE ID_conteudo = 13;
 
