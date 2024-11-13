@@ -31,13 +31,13 @@
     }
     #navbar{
         font-family: 'Courier New', Courier, monospace;
-        box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63);
+        /* box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63); */
     }
     #navbar{
         background-color: #ffffff;
-        height: 20%;
+        height: 13%;
         border-bottom: 1px solid black;
-        position: relative;
+        position: fixed;
         margin-bottom: 20px;
     }
     #navbar a:hover{
