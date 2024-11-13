@@ -248,4 +248,10 @@ input, button{
     width: 95%;
     margin-bottom: 25px;
 }
+#erroPesquisa{
+    color:black;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Arial;
+}
 

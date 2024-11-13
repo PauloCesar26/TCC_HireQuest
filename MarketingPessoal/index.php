@@ -32,41 +32,14 @@ $result = $conn->query($sql);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" href="img/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/style.css">
     <title>Marketing Pessoal</title>
 </head>
 <body>
     
-    <!-- NAVBAR -->
-    <!-- <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-        <div class="container py-3">
-          <a href="#" class="navbar-brand terciaria-color">
-            <span>LOGO</span>
-          </a>
-          <div class="collapse navbar-collapse" id="navbar-items">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="#" class="nav-link terciaria-color" aria-current="page">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link terciaria-color" aria-current="page">Projetos</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link terciaria-color" aria-current="page">Imóveis</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link terciaria-color" aria-current="page">Contatos</a>
-              </li>
-            </ul>
-          </div>
-          <button type="button" class="btn btn-secondary btn-small" id="button-nav">Sign Up</button>
-        </div>
-      </nav>  -->
       <?php
       include '../navbar/navbar.php';
       ?>
-
-
 
     <main>
         <h1 class="title-principal">Marketing Pessoal</h1>
@@ -95,40 +68,6 @@ $result = $conn->query($sql);
 
         <div class="container-list" id="gallery-container">
             <div class="row gx-md-5 contents">
-                <!-- <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img2"></div>
-                    <h3>Obra 1</h3>
-                    <p class="secondary-color">Realizada em: DATA 1</p>
-                    <a href="#" class="btn">Detalhes</a>
-                </div>    -->
-    
-                <!-- <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img3"></div>
-                    <h3>Obra 2</h3>
-                    <p class="secondary-color">Realizada em: DATA</p>
-                    <a href="#" class="btn">Detalhes</a>
-                </div>   -->
-    
-                <!-- <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img4"></div>
-                    <h3>Obra 3</h3>
-                    <p class="secondary-color">Realizada em: DATA</p>
-                    <a href="#" class="btn">Detalhes</a>
-                </div>   -->
-    
-                <!-- <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img5"></div>
-                    <h3>Obra 3</h3>
-                    <p class="secondary-color">Realizada em: DATA</p>
-                    <a href="#" class="btn">Detalhes</a>
-                </div>   -->
-    
-                <!-- <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img6"></div>
-                    <h3>Obra 4</h3>
-                    <p class="secondary-color">Realizada em: DATA</p>
-                    <a href="#" class="btn">Detalhes</a>
-                </div>   -->
 
                 <?php
                 if($result->num_rows > 0) {
@@ -143,7 +82,7 @@ $result = $conn->query($sql);
                     }
                 } 
                 else{
-                    echo '<p>Nenhuma obra encontrada.</p>';
+                    echo '<p id="erroPesquisa">Nenhuma pesquisa encontrada, verifique a escrita.</p>';
                 }
                 ?>
              </div>
