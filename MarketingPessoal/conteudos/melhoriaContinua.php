@@ -62,6 +62,72 @@
                     <p class="text">A avaliação contínua envolve a análise regular de seu desempenho e progresso em relação às metas estabelecidas. Isso pode incluir autoavaliações, revisão de objetivos e ajuste de estratégias de marketing pessoal para garantir que você esteja sempre se desenvolvendo e se adaptando às mudanças no mercado.</p>
                 </article>
             </section>
+
+            <br>
+            <header>
+                <h1 class="title1">Soft Skills e Hard Skills</h1>
+            </header>
+
+            <section>
+                <h2 class="title">O que são?</h2>
+                <p class="text">
+                    As <strong>hard skills</strong> e <strong>soft skills</strong> são dois tipos de habilidades essenciais que se complementam no mercado de trabalho.
+                </p>
+                <article>
+                    <h3>Hard Skills</h3>
+                    <p class="text">
+                        As hard skills são competências técnicas e específicas adquiridas por meio de estudos, treinamentos ou experiências práticas. Elas são objetivas, mensuráveis e podem ser comprovadas por meio de certificados, diplomas ou testes, como fluência em idiomas, habilidades em programação ou conhecimento em ferramentas como Excel.
+                    </p>
+                </article>
+                <article>
+                    <h3>Soft Skills</h3>
+                    <p class="text">
+                        As soft skills, por sua vez, são habilidades comportamentais, sociais e relacionadas à maneira como as pessoas interagem, se comunicam e enfrentam desafios no ambiente profissional. São conjuntos de habilidades, como inteligência emocional, trabalho em equipe e comunicação eficaz, que são mais subjetivos e se desenvolvem ao longo do tempo por meio da experiência pessoal e profissional.
+                    </p>
+                </article>
+            </section>
+
+            <section>
+                <h2 class="title">Importância</h2>
+                <p class="text">
+                    A importância das hard skills e soft skills é evidente no mercado de trabalho atual, onde ambas desempenham papéis complementares. Enquanto as hard skills garantem a capacidade técnica necessária para a realização de tarefas específicas, as soft skills promovem uma boa interação interpessoal, facilitam a colaboração em equipe e ajudam na resolução de conflitos. 
+                </p>
+                <p class="text">
+                    A combinação dessas competências resulta em profissionais mais completos, capazes de atender tanto às demandas técnicas quanto às necessidades comportamentais de um ambiente de trabalho, aumentando sua eficácia e valor para as empresas.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="title">Exemplos</h2>
+                <article>
+                    <h3>Exemplos de Hard Skills</h3>
+                    <ul class="text">
+                        <li>Programação (Python, Java, etc.)</li>
+                        <li>Conhecimento em ferramentas (Excel, AutoCAD, Photoshop)</li>
+                        <li>Fluência em idiomas estrangeiros</li>
+                        <li>Certificações técnicas</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Exemplos de Soft Skills</h3>
+                    <ul class="text">
+                        <li>Comunicação eficaz</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Pensamento crítico e resolução de problemas</li>
+                        <li>Liderança</li>
+                        <li>Inteligência emocional</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section>
+                <h2 class="title">Exemplo Prático</h2>
+                <p class="text">
+                    Um desenvolvedor de software precisa ter conhecimento técnico (<strong>hard skill</strong>) em programação, mas também deve saber colaborar com sua equipe, comunicar ideias e resolver conflitos (<strong>soft skill</strong>).
+                </p>
+            </section>
+
+            
         </main>
     </div>
 </body>
