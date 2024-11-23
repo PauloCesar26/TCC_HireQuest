@@ -67,7 +67,7 @@ Pontos fortes e áreas de melhoria na carreira,Feedback e autoanálise para cres
 Planejamento de carreira com autoconhecimento,Diferenciais no mercado de trabalho para jovens profissionais,Competências e qualidades para o sucesso profissional,
 Estratégias para aprimorar o autoconhecimento' WHERE ID_conteudo = 2;
 
-UPDATE conteudo SET assunto = 'O que é branding pessoal,Branding pessoal e construção de marca,Como criar uma marca pessoal forte,Estratégias para desenvolver a marca pessoal,
+UPDATE conteudo SET assunto = 'O que é branding pessoal,Branding pessoal e construção de marca,Como criar uma marca pessoal,Estratégias para desenvolver a marca pessoal,
 Diferenciação e identidade no branding pessoal,Consistência na marca pessoal online e offline,Importância do autoconhecimento no branding pessoal,
 Exemplos de branding pessoal bem-sucedido,Como construir reputação e visibilidade profissional,Networking e relacionamentos para fortalecer o branding pessoal,
 Dicas para se destacar com branding pessoal' WHERE ID_conteudo = 3;
@@ -95,14 +95,14 @@ Dicas de networking e autoapresentação para jovens profissionais,Postura e tom
 Como desenvolver habilidades de comunicação para o sucesso na carreira,
 Estratégias de comunicação escrita para e-mails e relatórios profissionais' WHERE ID_conteudo = 6;
 
-UPDATE conteudo SET assunto = 'Desenvolvimento contínuo profissional,Educação contínua no mercado de trabalho,Capacitação para jovens profissionais,Habilidades de aprendizado ao longo da vida,
+UPDATE conteudo SET assunto = 'Desenvolvimento continuo profissional,Educação contínua no mercado de trabalho,Capacitação para jovens profissionais,Habilidades de aprendizado ao longo da vida,
 Certificações profissionais,Cursos e treinamentos para carreira,Competências técnicas e interpessoais,Autoaprendizado e recursos online,Adaptação ao mercado de trabalho,
 Qualificação profissional e capacitação,Importância do desenvolvimento contínuo para jovens profissionais,Melhores plataformas para cursos e certificações online,
 Dicas de capacitação profissional para o mercado de trabalho,Como a educação contínua melhora a empregabilidade,Recursos para cursos, certificações e workshops profissionais,
 Benefícios de aprender habilidades técnicas e interpessoais,Como investir em capacitação e crescimento profissional,Estratégias para autoaprendizado e atualização profissional,
 Tipos de desenvolvimento contínuo: educação formal e não-formal,Certificações que aumentam o valor de mercado dos profissionais' WHERE ID_conteudo = 7;
 
-UPDATE conteudo SET assunto = 'Como fazer um curriculo,Estrutura de currículo profissional,Modelos de currículo para jovens profissionais,Objetivo profissional no currículo,
+UPDATE conteudo SET assunto = 'Como fazer um curriculo,Estrutura de curriculo profissional,Modelos de currículo para jovens profissionais,Objetivo profissional no currículo,
 Exemplos de carta de apresentação,Estrutura de carta de apresentação personalizada,Dicas de formatação de currículo,Habilidades e competências para currículo,
 Currículo funcional vs. cronológico,Carta de apresentação para vaga específica,Currículo para setores criativos e tradicionais,Passo a passo para criar um currículo profissional,
 Como estruturar um currículo para se destacar em seleções,Dicas para escrever uma carta de apresentação eficaz,Exemplos de currículos impactantes para jovens profissionais,
@@ -110,7 +110,7 @@ Currículo funcional e cronológico: qual a diferença?,Como descrever experiên
 Qual o melhor formato de currículo para cada setor,Habilidades essenciais para incluir no currículo,
 Carta de apresentação personalizada vs. generalista: vantagens e desvantagens' WHERE ID_conteudo = 8;
 
-UPDATE conteudo SET assunto = 'Como se preparar para uma entrevista de emprego,Dicas para entrevista de emprego,Perguntas comuns em entrevistas de trabalho,
+UPDATE conteudo SET assunto = 'Como se preparar para uma entrevista de emprego,Dicas para entrevista de emprego,Perguntas comuns em entrevistas de emprego,
 Estratégias para entrevistas comportamentais,Método STAR para entrevistas,Como responder perguntas em entrevistas,Entrevistas técnicas: como se preparar,
 Entrevistas em grupo e dinâmicas,Preparação para entrevista de emprego para iniciantes,Como causar boa impressão em entrevistas de trabalho,Dicas essenciais para se destacar em entrevistas de emprego,
 Como responder a perguntas comuns de entrevistas,Estratégias para entrevistas,Técnicas para se preparar para uma entrevista de emprego,Melhores práticas para entrevistas de emprego em grupo,
