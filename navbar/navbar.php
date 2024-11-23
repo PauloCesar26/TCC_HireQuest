@@ -12,7 +12,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: rgb(34, 34, 34);
+        background-color: black;
     }
     .bg-primary-color{
         background-color: white;

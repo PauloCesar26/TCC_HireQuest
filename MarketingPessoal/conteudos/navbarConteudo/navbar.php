@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <style>
     body{
-        background-color:  rgb(54, 54, 54);
+        background-color:  black;
     }
     .bg-primary-color{
         background-color: white;
@@ -37,7 +37,6 @@
         background-color: white;
         height: 13%;
         border-bottom: 1px solid black;
-        position: fixed;
         margin-bottom: 20px;
     }
     #navbar a:hover{

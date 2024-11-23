@@ -73,7 +73,7 @@ $result = $conn->query($sql);
                 if($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="col-12 col-md-6">';
-                        echo '<div class="small-image-container center-image" id="' . htmlspecialchars($row['ID_imagem']) . '"></div>';
+                        echo '<div class="small-image-container center-image imagem-conteudos" id="' . htmlspecialchars($row['ID_imagem']) . '"></div>';
                         echo '<h3 class="titulo">' . htmlspecialchars($row['titulo']) . '</h3>';
                         echo '<br>';
                         '<p class="secondary-color">' . htmlspecialchars($row['assunto']) . '</p>';
