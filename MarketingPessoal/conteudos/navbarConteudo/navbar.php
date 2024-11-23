@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <style>
     body{
-        background-color: #e8e5e5;
+        background-color:  rgb(54, 54, 54);
     }
     .bg-primary-color{
         background-color: white;
@@ -34,7 +34,7 @@
         /* box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63); */
     }
     #navbar{
-        background-color: #ffffff;
+        background-color: white;
         height: 13%;
         border-bottom: 1px solid black;
         position: fixed;
@@ -103,18 +103,17 @@
 </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-        <div class="container py-3">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container py-3 navbar-collapse navbar-nav">
           <a href="http://localhost/TCC_HireQuest/TCC_HireQuest/MarketingPessoal/index.php" class="navbar-brand terciaria-color"  target="_blank">
             <img src="../img/logo.svg" id="logo">
             <span>HireQuest</span>
           </a>
           <div class="profile">
             <i class="bi bi-person-circle"></i>
-            <span class="terciaria-color">Meu Perfil</span>
+            <span class="terciaria-color">Perfil</span>
           </div>
         </div>
-      </nav>
     </nav>
 </body>
 </html>

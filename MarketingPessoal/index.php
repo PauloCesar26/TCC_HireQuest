@@ -32,7 +32,7 @@ $result = $conn->query($sql);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" href="img/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
     <title>Marketing Pessoal</title>
 </head>
 <body>
@@ -74,7 +74,7 @@ $result = $conn->query($sql);
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="col-12 col-md-6">';
                         echo '<div class="small-image-container center-image" id="' . htmlspecialchars($row['ID_imagem']) . '"></div>';
-                        echo '<h3>' . htmlspecialchars($row['titulo']) . '</h3>';
+                        echo '<h3 class="titulo">' . htmlspecialchars($row['titulo']) . '</h3>';
                         echo '<br>';
                         '<p class="secondary-color">' . htmlspecialchars($row['assunto']) . '</p>';
                         echo '<a href="' . htmlspecialchars($row['conteudos_marketing']) . '" class="btn-details" target="_blank">Detalhes</a>';

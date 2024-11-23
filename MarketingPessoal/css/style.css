@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e8e5e5;
+    background-color: rgb(34, 34, 34);
 }
 /* #navbar{
     font-family: 'Courier New', Courier, monospace;
@@ -26,47 +26,6 @@ body{
     color: white;
 }
 
-
-/* NAVBAR */
-/* #navbar{
-    background-color: black;
-    height: 20%;
-    border-bottom: 1px solid #ffffff;
-    position: relative;
-}
-#navbar a:hover{
-    color: #a5a5a5;
-}
-.nav-link{
-    color: #ffffff !important;
-}
-.nav-link.active{
-color: #ffffff !important; 
-border-bottom: 1px solid white; 
-}
-.nav-link:focus, .nav-link:active{
-color: #bebebe !important; 
-outline: none; 
-box-shadow: none; 
-}
-.navbar-brand{
-    padding: 0;
-    margin: 0;
-}
-.navbar-brand span{
-    font-weight: 700;
-    font-size: 1.5em;
-}
-#navbar-items .navbar-nav{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-#button-nav{
-    width: 10%;
-    border-radius: 10px;
-} */
-
 /* CONTEUDO */
 main{
     /* background-color: #dadada; */
@@ -82,8 +41,8 @@ main{
 .title-principal{
     text-transform: uppercase;
     text-align: center;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid black;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid #2961b4;
 } 
 .container-search{
     /* border: 1px solid black;  */
@@ -158,7 +117,7 @@ input, button{
     border-radius: 20px;
 }
 .titleForm{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -182,7 +141,7 @@ input, button{
 }
 .btn-details{
     text-decoration: none;
-    background-color: #25282E !important;
+    background-color: rgb(25, 61, 134) !important;
     color: white !important;
     padding: 10px 18px;
     border-radius: 0;
@@ -240,7 +199,7 @@ input, button{
 }
 .container-list{
     /* background-color: #333; */
-    margin-top: 45px;
+    margin-top: 60px;
     padding-left: 36px;
 }
 .small-image-container{
@@ -249,9 +208,27 @@ input, button{
     margin-bottom: 25px;
 }
 #erroPesquisa{
-    color:black;
+    color:rgb(255, 255, 255);
     text-align: center;
     font-size: 1.1rem;
     font-family: Arial;
 }
+.titulo{
+    color:white !important;
+}
 
+/*hover*/
+.button:hover{
+    background-color: #8b8b8b;
+    color: rgb(255, 255, 255);
+    transition: 600ms;
+}
+.elementsForm button[type="submit"]:hover{
+    background-color: #8b8b8b;
+    color: rgb(255, 255, 255);
+    transition: 600ms;
+}
+.btn-details:hover{
+    background-color: rgb(24, 82, 197) !important;
+    transition: 300ms;
+}
