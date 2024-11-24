@@ -233,12 +233,12 @@ input, button{
 
 /*hover*/
 .button:hover{
-    background-color: #8b8b8b;
+    background-color: #13233a;
     color: rgb(255, 255, 255);
     transition: 600ms;
 }
 .elementsForm button[type="submit"]:hover{
-    background-color: #8b8b8b;
+    background-color: #13233a;
     color: rgb(255, 255, 255);
     transition: 600ms;
 }

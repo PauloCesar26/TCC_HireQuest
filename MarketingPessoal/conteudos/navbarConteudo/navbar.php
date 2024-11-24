@@ -34,14 +34,14 @@
         /* box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63); */
     }
     #navbar{
-        background-color: white;
-        height: 13%;
+        background-color: #13233a;
         border-bottom: 1px solid black;
         margin-bottom: 20px;
-    }
-    #navbar a:hover{
-        transition: 250ms;
-        color: #a5a5a5;
+        max-width: 100%;
+        min-width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .nav-link{
         color: black !important;
@@ -63,10 +63,15 @@
         justify-content:center;
         gap: 5px;
     }
+    .navbar-brand a, span:hover{
+        color: #636363;
+        transition: 400ms;
+    }
     .navbar-brand span{
         font-family: Arial;
         font-weight: 700;
         font-size: 1.2em;
+        color: white;
     }
     #navbar-items .navbar-nav{
         display: flex;
@@ -85,7 +90,7 @@
         gap: 10px;
     }
     .profile i{
-        color: black;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -95,6 +100,7 @@
     }
     .profile span{
         font-size: 16px;
+        color: white;
      }
      #logo{
         width: 20%;
@@ -104,13 +110,13 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container py-3 navbar-collapse navbar-nav">
-          <a href="http://localhost/TCC_HireQuest/TCC_HireQuest/MarketingPessoal/index.php" class="navbar-brand terciaria-color"  target="_blank">
+          <a href="http://localhost/TCC_HireQuest/TCC_HireQuest/MarketingPessoal/index.php" class="navbar-brand"  target="_blank">
             <img src="../img/logo.svg" id="logo">
             <span>HireQuest</span>
           </a>
           <div class="profile">
             <i class="bi bi-person-circle"></i>
-            <span class="terciaria-color">Perfil</span>
+            <span>Perfil</span>
           </div>
         </div>
     </nav>
