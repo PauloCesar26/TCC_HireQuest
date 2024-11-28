@@ -12,15 +12,18 @@ if ($conn->connect_error) {
 
 $search_query = "";
 
-if (isset($_GET['query'])) {
-    $search_query = $_GET['query'];
-    $search_query = $conn->real_escape_string($search_query); 
-    $sql = "SELECT ID_imagem, titulo, assunto, conteudos_marketing FROM conteudo WHERE titulo LIKE '%$search_query%' OR assunto LIKE '%$search_query%' OR conteudos_marketing LIKE '%$search_query%'";
-} else {
+if(isset($_GET['query']) && !empty($_GET['query'])){
+    $search_query = $conn->real_escape_string($_GET['query']);
+
+    $sql = "SELECT ID_imagem, titulo, assunto, conteudos_marketing 
+            FROM conteudo 
+            WHERE LOWER(titulo) LIKE '%$search_query%' 
+               OR LOWER(assunto) LIKE '%$search_query%' 
+               OR LOWER(conteudos_marketing) LIKE '%$search_query%'";
+} 
+else{
     $sql = "SELECT * FROM conteudo"; 
 }
-
-$result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
