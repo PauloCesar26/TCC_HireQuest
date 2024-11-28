@@ -24,6 +24,8 @@ if(isset($_GET['query']) && !empty($_GET['query'])){
 else{
     $sql = "SELECT * FROM conteudo"; 
 }
+
+$result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
