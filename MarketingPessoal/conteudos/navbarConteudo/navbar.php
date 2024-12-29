@@ -110,7 +110,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container py-3 navbar-collapse navbar-nav">
-          <a href="http://localhost/TCC_HireQuest/TCC_HireQuest/MarketingPessoal/index.php" class="navbar-brand"  target="_blank">
+          <a href="http://localhost/TCC_HireQuest/TCC_HireQuest/MarketingPessoal/index.php" class="navbar-brand">
             <img src="../img/logo.svg" id="logo">
             <span>HireQuest</span>
           </a>

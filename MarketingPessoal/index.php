@@ -82,7 +82,7 @@ $result = $conn->query($sql);
                         echo '<h3 class="titulo">' . htmlspecialchars($row['titulo']) . '</h3>';
                         echo '<br>';
                         '<p class="secondary-color">' . htmlspecialchars($row['assunto']) . '</p>';
-                        echo '<a href="' . htmlspecialchars($row['conteudos_marketing']) . '" class="btn-details" target="_blank">Detalhes</a>';
+                        echo '<a href="' . htmlspecialchars($row['conteudos_marketing']) . '" class="btn-details">Detalhes</a>';
                         echo '</div>';
                     }
                 } 
