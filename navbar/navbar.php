@@ -36,34 +36,31 @@
         font-family: 'Courier New', Courier, monospace;
         box-shadow: 0px 0px 27px -12px rgba(0,0,0,0.63);
     }
-    #navbar{
+    #navbar {
         background-color: white;
         height: 20%;
         border-bottom: 1px solid black;
         position: relative;
         margin-bottom: 20px;
     }
-    #navbar a:hover{
-        color: #a5a5a5;
+    #navbar .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .nav-link{
-        color: black !important;
-    }
-    .nav-link.active{
-        color: black !important; 
-        border-bottom: 1px solid black; 
-    }
-    .nav-link:focus, .nav-link:active{
-        color: black !important; 
-        outline: none; 
-        box-shadow: none; 
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
     }
     .navbar-brand{
         padding: 0;
         margin: 0;
         width: 13%;
         display: flex;
-        justify-content:center;
+        justify-content: center;
+        align-items: center;
         gap: 5px;
     }
     .navbar-brand span{
@@ -80,43 +77,24 @@
         width: 10%;
         border-radius: 10px;
     }
-    .profile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 3px;
-        gap: 10px;
-    }
-    .profile i{
-        color: black;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-size: 30px;
-        cursor: pointer;
-    }
-    .profile span{
-        font-size: 16px;
-     }
      #logo{
         width: 20%;
+     }
+     .container a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
 </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container py-3 navbar-collapse navbar-nav">
+        <div class="container py-3 ">
           <a href="#" class="navbar-brand terciaria-color">
             <img src="img/logo.svg" id="logo">
             <span>HireQuest</span>
           </a>
-          <div class="profile">
-            <i class="bi bi-person-circle"></i>
-            <span class="terciaria-color">Perfil</span>
-          </div>
         </div>
     </nav>
-    <script src="script.js"></script>
 </body>
 </html>

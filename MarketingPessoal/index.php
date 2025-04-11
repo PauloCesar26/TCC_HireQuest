@@ -56,9 +56,7 @@ $result = $conn->query($sql);
 
                       <div class="elementsForm">
                             <input type="text" name="query" placeholder="Digite o que quer saber..." value="<?php echo htmlspecialchars($search_query); ?>">
-                          
                             <button type="submit"><i class="bi bi-search"></i></button>
-      
                             <button class="reset-button button" onclick="window.location.href='index.php'; return false;"><i class="bi bi-arrow-clockwise"></i></button>
                       </div>
                   </form>
